@@ -1,0 +1,159 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+
+body {
+    font-family: "Bonveno", "Century Gothic";
+    font-size: smaller;
+    padding: 20px;
+    color: #555;
+}
+
+h1 {
+    text-align: center;
+    font-size: 500%;
+    color: #e97013;
+    font-weight: normal;
+    width: 100%;
+}
+
+table {
+    padding: 10px;
+    background-color: #ffffff;
+    margin: auto;
+    border-collapse: collapse;
+    border: black 2px solid;
+}
+
+th {
+    background-color: #ffe3cc;
+    text-align: left;
+    border-bottom: 2px solid;
+    padding: 10px;
+    text-align: center;
+}
+
+td {
+    white-space: nowrap;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+a:link {
+    color: #be7429;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+a:link:hover {
+    color: #be7429;
+    font-weight: normal;
+    text-decoration: underline;
+}
+.block1 { 
+    width: 100%; 
+    padding: 5px; 
+    top: 40px; 
+    overflow: auto;
+}
+
+/*.block2 { 
+    width: 50%; 
+    padding: 5px; 
+    position: relative; 
+    top: 20px; 
+    left: 25%;
+    margin: auto;
+}*/
+
+
+/*
+fieldset {
+    padding: 1;
+    margin: 0;
+    margin: 15px 0;
+    border-color: #C1C1C1;
+}
+
+label {
+    width: 130px;
+    font-size: 14px;
+    display: inline-block;
+}
+
+form input {
+    border: 2px solid #C1C1C1;
+    padding: 3px 5px;
+    margin: 7px;
+    font-weight: bolder;
+    width: 150px;
+}
+
+form select {
+    border: 2px solid #C1C1C1;
+    padding: 3px 5px;
+    margin: 7px;
+    font-weight: bolder;
+    width: 150px;
+}*/
+
+.block { 
+    width: 400px; 
+    padding: 5px; 
+    border: solid 1px black;
+    position: relative; 
+    top: 40px; 
+    margin: auto;
+}
+
+/*form {
+    font-family: sans-serif;
+    border: 1px solid #D4DADB;
+    padding: 0 15px;
+    border-radius: 3px;
+    background-color: white;
+}*/
+
+.add-btn {    
+    padding: 10px;
+    margin: 0 10px;
+    color: #555;
+    border: #C1C1C1 2px solid;
+    border-radius: 30px;
+    text-decoration: none;
+    box-shadow: 3px 3px 5px #C1C1C1;
+}
+.add-btn-wrap a:hover {
+    text-decoration: none;
+    box-shadow: none;
+    background-color: #ffe3cc;
+}
+.add-btn-wrap {
+    margin: 30px;
+}
+
+.start-table {
+    border: none;
+}
+.start-table tr {
+    background-color: white;
+}
+.start-table td {
+    font-family: "Bonveno", "Century Gothic";
+    font-size: 20px;    
+    padding: 30px;
+    padding-bottom: 0px;
+}
+.start-table td a {
+    color: #5c5c5c;
+}
+.start-table td a:hover {
+    color: #e97013;
+    text-decoration: none;
+}

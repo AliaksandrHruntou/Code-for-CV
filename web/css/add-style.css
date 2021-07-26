@@ -1,0 +1,118 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+
+p {
+    font-size: 14px;
+}
+
+.block h2 {
+    color: #e97013;
+}
+
+form {
+    font-family: "Bonveno", "Century Gothic";
+    padding: 0 15px;
+    border-radius: 3px;
+    background-color: white;
+    width: 700px;
+}
+
+form img {
+    width: 80px;
+    vertical-align: middle;
+}
+
+fieldset {
+    padding: 15px;
+    margin: 0;
+    margin: 15px 0;
+    width: 650px;
+    border-color: #C1C1C1;
+    background-color: #f7f7f7;
+}
+
+legend {
+    color: #e97013;
+    font-size: 20px;
+}
+
+label {
+    width: 130px;
+    font-size: 14px;
+    display: inline-block;
+}
+
+form input {
+    border: 2px solid #C1C1C1;
+    padding: 3px 5px;
+    margin: 7px;
+    font-weight: bolder;
+    width: 480px;
+}
+
+form select {
+    font-family: "Bonveno", "Century Gothic";
+    border: 2px solid #C1C1C1;
+    padding: 3px 5px;
+    margin: 7px;
+    font-weight: bolder;
+    width: 493px;
+}
+
+.block { 
+    font-family: "Bonveno", "Century Gothic";
+    width: 700px; 
+    padding: 5px; 
+    position: relative; 
+    top: 40px; 
+    margin: auto;
+}
+
+.gender_display{
+    display: none;
+}
+
+.old-form {
+    width: 480px;
+    display: flex;
+}
+
+.old-form-wrap {    
+    display: flex;
+}
+.old-form-wrap label {
+    margin-right: 10px;
+}
+.old-form input {
+    width: 20px;
+    margin: auto 0;
+    padding: 0;
+}
+.old-form label {
+    width: 20px;
+    margin-right: 30px;
+}
+
+.add-btn { 
+    width: 200px;
+    padding: 10px;
+    margin: 0 240px;
+    color: #555;
+    border: #C1C1C1 2px solid;
+    border-radius: 30px;
+    text-decoration: none;
+    box-shadow: 3px 3px 5px #C1C1C1;
+}
+.add-btn-wrap input:hover {
+    text-decoration: none;
+    box-shadow: none;
+    background-color: #ffe3cc;
+}
+.add-btn-wrap {
+    width: 670px;
+}
+
